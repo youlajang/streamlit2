@@ -1,1 +1,3 @@
-# streamlit2
+-----
+$ pip install -r requirements.txt
+-----
