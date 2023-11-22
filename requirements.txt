@@ -2,6 +2,7 @@ numpy
 opencv_contrib_python
 opencv_python
 opencv_python_headless
+openai
 Pillow
 protobuf
 streamlit
