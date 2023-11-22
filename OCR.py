@@ -69,7 +69,7 @@ def response(output_text):
 
 if __name__ == "__main__":
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"openocr-394310-95d8b763df38.json"
-    client = OpenAI(api_key='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')
+    client = OpenAI(api_key=st.secrets["client"])
     output_text = main()
     response(output_text)
     
